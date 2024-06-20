@@ -164,8 +164,8 @@ pub struct Camera {
     ///
     /// This matrix must be in the Euclidean momentum group, the semi-direct product of O(3) and R^3.
     pub matrix: Matrix4,
-    pub projection: Matrix4,
-    pub projection_type: ProjectionType,
+    projection: Matrix4,
+    projection_type: ProjectionType,
 }
 
 /// Rays corresponding to a point on the screen, defined by the camera.
