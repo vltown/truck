@@ -102,7 +102,7 @@ impl Camera {
         near_clip: f64,
         far_clip: f64,
     ) -> Camera {
-        let projection = perspective(field_of_view.into(), 1.0, near_clip, far_clip);
+        let projection = perspective(field_of_view.into(), 1.6, near_clip, far_clip);
         Camera {
             matrix,
             projection,
