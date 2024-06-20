@@ -4,6 +4,13 @@ The version is of the bottom crate `truck-rendimpl`.
 
 ## Unreleased
 
+- Fix the implementation `triangulation` for robust meshing.
+- Fix new clippy(2024-06-16)
+- Make `put_toghether_each_attrs` faster.
+- Improve `put_together_each_attrs`.
+- Fix a bug on partial `rsweep` with a negative angle.
+- Fix typo in `truck-meshalgo`.
+- Add `Face::cut_by_wire`.
 - Implelment `AsRef`, `Borrow`, and `Extend` for `Wire` and `Shell`.
 - Stop GPU test for a bug caused by some drop methods.
 - Output shapes from step files to step files.
@@ -90,7 +97,7 @@ Step input API is W.I.P. and hidden.
 
 ### Latest `cargo upgrade`
 
-2024-04-11
+2024-06-15
 
 ## v0.5
 

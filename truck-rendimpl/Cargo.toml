@@ -18,7 +18,7 @@ webgl = ["truck-platform/webgl"]
 
 [dependencies]
 itertools = "0.12.1"
-bytemuck = { version = "1.15.0", features = ["derive"] }
+bytemuck = { version = "1.16.0", features = ["derive"] }
 image = "0.25.1"
 truck-platform = { version = "0.5.0", path = "../truck-platform" }
 truck-polymesh = { version = "0.5.0", path = "../truck-polymesh" }
@@ -28,7 +28,7 @@ async-trait = "0.1.80"
 env_logger = "0.11.3"
 pollster = "0.3.0"
 rayon = "1.10.0"
-serde_json = "1.0.115"
+serde_json = "1.0.117"
 truck-meshalgo = { version = "0.3.0", path = "../truck-meshalgo" }
 truck-modeling = { version = "0.5.0", path = "../truck-modeling" }
 winit = "0.29.15"
